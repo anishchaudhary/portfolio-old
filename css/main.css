@@ -1,0 +1,125 @@
+/*=================custom styles================== */
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('aaargh-webfont.eot');
+    src: url('aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aaargh-webfont.woff') format('woff'),
+         url('aaargh-webfont.ttf') format('truetype'),
+         url('aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aldridgescriptsskregular';
+    src: url('aldrss-webfont.eot');
+    src: url('aldrss-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aldrss-webfont.woff') format('woff'),
+         url('aldrss-webfont.ttf') format('truetype'),
+         url('aldrss-webfont.svg#aldridgescriptsskregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bankgothic_lt_btlight';
+    src: url('bnkgothl-webfont.eot');
+    src: url('bnkgothl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bnkgothl-webfont.woff') format('woff'),
+         url('bnkgothl-webfont.ttf') format('truetype'),
+         url('bnkgothl-webfont.svg#bankgothic_lt_btlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*font css ends here*/
+
+body {background:url(../img/home-bg.png) repeat top center; color:#fff; font-family:'aaarghnormal'; font-weight:normal;}
+.block {padding: 20px 0px;}
+.navbar .nav > li > a {font-family:'aaarghnormal';}
+.social-nav {font-size:11px;}
+.social-nav-title {font-family: 'aldridgescriptsskregular'; font-size:24px; color:#5e5e5e; padding:12px 15px;}
+.sprite-base {background:url(../img/dd-sprite.png) no-repeat; display:block;}
+.logo-container {margin-top:20px; text-align:left;}
+/*common css ends here*/
+
+#main-page {min-height:900px;}
+.main-page-logo {background-position:0px 0px; width:175px; height:71px;}
+.main-text {font-family: 'bankgothic_lt_btlight'; font-size:30px; line-height:50px; text-transform:uppercase; margin-top:200px;}
+.green {color:#b3c658;}
+.blue {color:#56b2df;}
+.yellow {color:#ffde00;}
+.main-page-content {text-align:center;}
+.brand {display:none;}
+/*main page css ends here*/
+
+#technology {background:#809325; min-height:900px; text-align:center;}
+.tech-page-logo {background-position:0px -101px; width:175px; height:71px;}
+#technology .page-header {font-family:'aaarghnormal'; font-weight:normal; font-size:40px; border-bottom:2px solid #93a82e; color:#000; padding:0 0 12px; display:inline-block; margin:135px 0 150px;}
+.tech-header {color:#ffde00; font-size:20px; margin:2px 0;}
+.tech-container {text-align:center;}
+.tech-container p {line-height:26px;}
+.interface-icn, .brand-icn, .cms-icn, .ecommerce-icn {width:33px; height:26px; display:inline-block;}
+.interface-icn {background-position:-205px 0px;}
+.brand-icn {background-position:-268px 0px;}
+.cms-icn {background-position:-327px 0px;}
+.ecommerce-icn {background-position:-387px 0px;}
+/*technology page css ends here*/
+
+#portfolio {background:#ffde00; min-height:900px; text-align:center;}
+.portfolio-page-logo {background-position:0px -202px; width:175px; height:71px;}
+#portfolio .page-header {font-weight:normal; font-size:40px; border-bottom:none; color:#000; display:inline-block; margin:100px 0 40px;}
+.portfolio-container {text-align:center; margin-bottom:40px;}
+.portfolio-content {text-align:center; position:relative; width:200px; margin:0 auto;}
+.portfolio-title {position:absolute; margin-bottom:0px; bottom:0px; margin:0 auto; width:200px; background:rgba(0,0,0,.8); height:32px; line-height:32px; color:#fff; font-size:14px; font-weight:normal;}
+.portfolio-title a {color:#fff; text-decoration:none;}
+.portfolio-title a:hover {color:#fff; text-decoration:underline;}
+/*portfolio page css ends here*/
+
+#blog {background:#fff; min-height:900px; text-align:center;}
+#blog .page-header {font-weight:normal; font-size:40px; border-bottom:none; color:#000; display:inline-block; margin:100px 0 40px;}
+.blog-page-logo {background-position:0px -202px; width:175px; height:71px; margin-bottom:25px;}
+#blog .blog-title {font-weight:normal; font-size:28px; border-bottom:none; color:#212121;}
+#blog .row {margin-bottom:25px; text-align:left;}
+#blog p {font-size:16px; color:#555; line-height:26px; border-bottom:2px solid #ffde00; padding:5px 0 10px; }
+.blog-read-more {display:block; text-align:right;}
+.blog-read-more a {color:#212121; font-size:16px; text-decoration:underline;}
+.blog-read-more a:hover {text-decoration:none;}
+/*Blog page css ends here*/
+
+#contact {min-height:900px; text-align:center;}
+#contact .page-header {font-weight:normal; font-size:40px; border-bottom:none; color:#fff; display:inline-block; margin:135px auto 40px;}
+#contact p {font-size:16px; color:#fff; margin-bottom:15px;}
+#contact p:first-child {margin-bottom:25px; line-height:26px;}
+#contact p a {color:#fff; text-decoration:none; display:inline-block; margin:0 auto; width:300px; text-align:left; line-height:34px;}
+#contact p a:hover {text-decoration:underline;}
+.skype-icn, .email-icn, .facebook-icn, .twitter-icn, .linkedin-icn {width:34px; height:34px; display:block; float:left; margin-right:20px;}
+.skype-icn {background-position:-205px -101px;}
+.email-icn {background-position:-268px -101px;}
+.facebook-icn {background-position:-327px -101px;}
+.twitter-icn {background-position:-387px -101px;}
+.linkedin-icn {background-position:-447px -101px;}
+/*Contact page css ends here*/
+
+/*responsive css*/
+@media(max-width:979px) {
+body {padding:0;}
+.logo-container {display:none;}
+.main-text {margin-left:0px;}
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {color:#ffde00;}
+#main-page, #technology, #portfolio, #blog, #container {/*margin-left: -20px; margin-right: -20px;*/ padding-left:10px; padding-right:10px;}
+.navbar-inverse .navbar-inner {background:rgba(16, 16, 16, 1); border-top:none; border-bottom:1px solid #1D1D1D;}
+.navbar-fixed-top, .navbar-fixed-bottom {position:fixed; top:0; height:62px;}
+.navbar .btn, .navbar .btn-group {margin:10px 10px 0 0;}
+.portfolio-content, .portfolio-title {width:166px;}
+.navbar .brand {font-weight:bold;}
+	}
+	
+@media(max-width:480px) {
+#main-page {min-height:500px; padding-bottom:50px;}
+#technology, #portfolio, #blog, #contact {min-height:700px; padding-bottom:50px;}
+#contact {min-height:500px;}
+#technology .page-header, #portfolio .page-header, #blog .page-header, #contact .page-header {margin:20px 0 30px; font-size:28px; line-height:38px; padding:0 0 7px;}
+#technology .tech-container {margin-bottom:30px;}
+.main-text {margin-top:100px; font-size:24px; line-height:45px;}
+#blog .blog-title {font-size:22px;}
+	}
